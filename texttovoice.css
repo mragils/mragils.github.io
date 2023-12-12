@@ -104,6 +104,7 @@ select {
     margin: -181px 118px;
     margin-bottom: 30px;
     margin-right: 220px;
+    margin-top: -169px;
   }
   .row {
     width: 443px;
@@ -113,10 +114,10 @@ select {
     border-radius: 20px;
   }
   select {
-    width: 20px;
+    width: 42px;
     border-radius: 12px;
-    margin-left: 10px;
-    margin-right: 41px;
+    margin-left: 2px;
+    margin-right: 40px;
     background-position-x: calc(100% - 13px);
     background-position-y: 20px;
   }
@@ -124,7 +125,7 @@ select {
     width: 104px;
     margin-left: -37px;
     border-radius: 12px;
-    margin-right: 116px;
+    margin-right: 120px;
     padding-left: 18px;
   }
   .hero h1 {
