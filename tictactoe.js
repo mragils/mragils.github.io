@@ -47,8 +47,10 @@ window.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    if (!board.includes("")) {
-      announce();
+    if (!board.includes(" ")) {
+      announce(TIE);
+      isGameActive = false;
+      return;
     }
   }
 
