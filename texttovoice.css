@@ -106,9 +106,9 @@ select {
     margin-right: 220px;
   }
   .row {
-    width: 462px;
+    width: 443px;
     display: flex;
-    align-items: unset;
+    align-items: normal;
     gap: 2px;
     border-radius: 20px;
   }
