@@ -43,7 +43,7 @@ textarea::placeholder {
 .row {
   width: 600px;
   display: flex;
-  align-items: center;
+  align-items: normal;
   gap: 20px;
 }
 button {
@@ -80,6 +80,7 @@ select {
 }
 @media only screen and (max-width: 700px) {
   .hero {
+    position: fixed;
     width: 130%;
     height: 130vh;
     background: linear-gradient(135deg, #07839c, #39c787);
@@ -90,8 +91,8 @@ select {
     color: white;
   }
   textarea {
-    width: 385px;
-    height: 245px;
+    width: 68%;
+    height: 251px;
     background: rgb(228, 225, 225);
     color: black;
     font-size: 15px;
@@ -100,31 +101,45 @@ select {
     padding: 20px;
     border-radius: 20px;
     resize: none;
-    margin-bottom: 30px;
+    margin: -181px 118px;
+    margin-bottom: 17px;
+    margin-right: 220px;
   }
   .row {
+    flex-direction: column;
+    align-items: center;
     width: 462px;
     display: flex;
-    align-items: unset;
     gap: 2px;
     border-radius: 20px;
   }
   select {
+    width: 329px;
+    height: 167vh;
+    padding: 18px 30px;
+    margin-left: 73px;
+    margin-right: 177px;
+    margin-bottom: 10px;
     border-radius: 12px;
-    margin-left: 40px;
     background-position-x: calc(100% - 13px);
     background-position-y: 20px;
   }
   button {
+    display: inline;
+    width: 329px;
+    padding: 12px 30px;
+    margin-left: 73px;
+    margin-right: 177px;
+    margin-bottom: 10px;
     border-radius: 12px;
-    margin-right: 40px;
   }
   .hero h1 {
+    height: 55px;
     font-size: 33px;
     text-align: center;
     font-weight: 500;
     margin-top: -130px;
-    margin-bottom: 50px;
-    margin-right: 20px;
+    margin-bottom: 183px;
+    margin-left: -93px;
   }
 }
