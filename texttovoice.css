@@ -92,7 +92,7 @@ select {
   }
   textarea {
     width: 68%;
-    height: 251px;
+    height: 245px;
     background: rgb(228, 225, 225);
     color: black;
     font-size: 15px;
@@ -102,44 +102,38 @@ select {
     border-radius: 20px;
     resize: none;
     margin: -181px 118px;
-    margin-bottom: 17px;
+    margin-bottom: 30px;
     margin-right: 220px;
   }
   .row {
-    flex-direction: column;
-    align-items: center;
     width: 462px;
     display: flex;
+    align-items: unset;
     gap: 2px;
     border-radius: 20px;
   }
   select {
-    width: 329px;
-    height: 167vh;
-    padding: 18px 30px;
-    margin-left: 73px;
-    margin-right: 177px;
-    margin-bottom: 10px;
+    width: 20px;
     border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 41px;
     background-position-x: calc(100% - 13px);
     background-position-y: 20px;
   }
   button {
-    display: inline;
-    width: 329px;
-    padding: 12px 30px;
-    margin-left: 73px;
-    margin-right: 177px;
-    margin-bottom: 10px;
+    width: 104px;
+    margin-left: -37px;
     border-radius: 12px;
+    margin-right: 116px;
+    padding-left: 18px;
   }
   .hero h1 {
-    height: 55px;
+    height: 49px;
     font-size: 33px;
     text-align: center;
     font-weight: 500;
     margin-top: -130px;
-    margin-bottom: 183px;
+    margin-bottom: 198px;
     margin-left: -93px;
   }
 }
