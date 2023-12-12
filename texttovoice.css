@@ -116,7 +116,7 @@ select {
   select {
     width: 42px;
     border-radius: 12px;
-    margin-left: 2px;
+    margin-left: 18px;
     margin-right: 40px;
     background-position-x: calc(100% - 13px);
     background-position-y: 20px;
