@@ -353,15 +353,15 @@ nav .fa-solid {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 13px 0;
-    padding-right: 20px;
+    margin: 20px 0;
+    padding-right: 30px;
   }
   #header h1 {
     font-weight: bold;
-    margin: -250px 30px;
+    margin: -290px 30px;
   }
   .header-text p {
-    margin: 254px 30px;
+    margin: 297px 30px;
   }
   .header-text {
     margin-top: 100%;
